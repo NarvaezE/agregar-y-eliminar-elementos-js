@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar y eliminar elementos de un li</title>
+    <link rel="stylesheet" href="src/css/styles.css ">
+</head>
+<body>
+    <h1>Agregar y eliminar elementos </h1>
+    <p>
+        <b>Instrucciones:</b>
+        <br>1.Escribe el elemento que desea agregar a la lista y seleccione el boton agregar.
+        <br>2.Para eliminar un elemento de la lista, seleccione el texto "|eliminar|" que se encuenta al lado del elemento a eliminar.
+    </p>
+    <form>
+        <input type="text" id="elementoNuevo">
+        <br><input type="submit" onclick="return agregarElemento()" value="agregar">
+    </form>
+
+    <ul id="listaPrincipal">
+    </ul>
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
